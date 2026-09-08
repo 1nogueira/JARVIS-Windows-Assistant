@@ -1,0 +1,10 @@
+{
+  "name": "whatsapp",
+  "title": "WhatsApp",
+  "description": "Open the native application and prepare or send messages with confirmation.",
+  "category": "Communication",
+  "tools": ["open_app", "whatsapp_message"],
+  "capabilities": ["windows.apps", "communications.whatsapp"],
+  "keywords": ["message", "contact", "whatsapp", "mensagem", "contato", "minha mae"],
+  "deterministic": true
+}

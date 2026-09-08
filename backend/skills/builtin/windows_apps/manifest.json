@@ -1,0 +1,10 @@
+{
+  "name": "windows_apps",
+  "title": "Windows applications",
+  "description": "Find, open and manage installed applications without arbitrary shell execution.",
+  "category": "Windows",
+  "tools": ["find_installed_apps", "open_app", "close_process"],
+  "capabilities": ["windows.apps", "windows.processes"],
+  "keywords": ["open", "application", "program", "launch", "abra", "aplicativo", "programa", "discord", "vs code", "edge", "epic", "whatsapp"],
+  "deterministic": true
+}

@@ -1,0 +1,68 @@
+{
+  "ollama": {
+    "url": "http://127.0.0.1:11434",
+    "chat_model": "qwen2.5:7b",
+    "vision_model": "qwen2.5vl:3b",
+    "embedding_model": "nomic-embed-text",
+    "context_size": 8192,
+    "max_output_tokens": 512,
+    "request_timeout_seconds": 90,
+    "temperature": 0.2,
+    "think": false,
+    "keep_alive": "30m"
+  },
+  "voice": {
+    "enabled": true,
+    "wake_word_enabled": true,
+    "always_listening": false,
+    "push_to_talk": true,
+    "wake_word": "jarvis",
+    "sensitivity": 0.45,
+    "wake_vad_threshold": 300,
+    "microphone": "",
+    "stt_executable": "",
+    "stt_model": "",
+    "stt_language": "pt",
+    "piper_executable": "",
+    "piper_model": "",
+    "speech_rate": 1.0,
+    "volume": 1.0,
+    "hands_free": true
+  },
+  "search": {
+    "searxng_url": "http://127.0.0.1:8080",
+    "timeout_seconds": 15
+  },
+  "agent": {
+    "max_steps": 8,
+    "history_messages": 8,
+    "tool_timeout_seconds": 45
+  },
+  "interface": {
+    "always_on_top": false,
+    "start_with_windows": false,
+    "minimize_to_tray": true,
+    "animations": true
+  },
+  "privacy": {
+    "memory_enabled": true,
+    "history_enabled": true,
+    "structured_logs": true,
+    "keep_screenshots": false
+  },
+  "proactive": {
+    "enabled": false,
+    "interval_seconds": 60,
+    "ram_warning_percent": 90,
+    "disk_warning_percent": 90
+  },
+  "permissions": {},
+  "user": {
+    "language": "pt-BR",
+    "form_of_address": "senhor",
+    "default_location": ""
+  },
+  "storage": {
+    "artifact_directory": ""
+  }
+}

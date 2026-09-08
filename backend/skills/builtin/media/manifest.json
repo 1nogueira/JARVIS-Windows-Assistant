@@ -1,0 +1,10 @@
+{
+  "name": "media",
+  "title": "Media and audio",
+  "description": "Control media, theme music and local Windows audio.",
+  "category": "Windows",
+  "tools": ["control_theme_music", "set_volume", "set_mute"],
+  "capabilities": ["windows.media", "windows.audio"],
+  "keywords": ["music", "play", "sound", "musica", "pause", "toque", "volume", "som"],
+  "deterministic": true
+}

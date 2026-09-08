@@ -1,0 +1,9 @@
+{
+  "name": "coding",
+  "title": "Local code",
+  "description": "Read and edit code with explicit paths and confirmation for changes.",
+  "category": "Development",
+  "tools": ["read_text_file", "open_in_vscode", "write_text_file", "replace_text_in_file"],
+  "capabilities": ["filesystem.read", "filesystem.write", "coding.local"],
+  "keywords": ["code", "programming", "error", "codigo", "programacao", "python", "typescript", "vscode", "erro", "bug"]
+}

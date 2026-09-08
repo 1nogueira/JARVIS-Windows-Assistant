@@ -1,0 +1,9 @@
+{
+  "name": "web_research",
+  "title": "Deep research",
+  "description": "Research multiple sources, compare evidence and produce a cited answer.",
+  "category": "Web",
+  "tools": ["web_search", "browser_read_page"],
+  "capabilities": ["web.search", "web.read"],
+  "keywords": ["research", "investigate", "sources", "news", "current", "pesquise", "pesquisa profunda", "investigue", "fontes", "noticia", "atual"]
+}

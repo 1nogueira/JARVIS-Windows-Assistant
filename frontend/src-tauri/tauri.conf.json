@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "JARVIS",
+  "version": "0.3.6",
+  "identifier": "local.jarvis.assistant",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://127.0.0.1:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "JARVIS",
+        "width": 1120,
+        "height": 760,
+        "minWidth": 720,
+        "minHeight": 560,
+        "center": true,
+        "decorations": false,
+        "transparent": false,
+        "resizable": true
+      }
+    ],
+    "security": { "csp": "default-src 'self'; connect-src 'self' http://127.0.0.1:8742 ws://127.0.0.1:8742; img-src 'self' asset: http://asset.localhost blob: data:; media-src 'self' blob: http://127.0.0.1:8742; style-src 'self' 'unsafe-inline';" }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["nsis", "msi"],
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.ico"
+    ],
+    "shortDescription": "Assistente pessoal local para Windows",
+    "longDescription": "JARVIS usa modelos locais e ferramentas com permissões para ajudar no Windows sem APIs pagas.",
+    "windows": { "wix": null, "nsis": null }
+  }
+}

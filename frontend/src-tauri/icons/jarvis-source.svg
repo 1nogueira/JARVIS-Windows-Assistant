@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <radialGradient id="bg" cx="45%" cy="38%" r="70%">
+      <stop offset="0" stop-color="#153842"/><stop offset=".48" stop-color="#08171d"/><stop offset="1" stop-color="#020609"/>
+    </radialGradient>
+    <radialGradient id="core" cx="42%" cy="36%" r="70%">
+      <stop offset="0" stop-color="#c9faff"/><stop offset=".16" stop-color="#55d9ed"/><stop offset=".52" stop-color="#11697c"/><stop offset="1" stop-color="#05212b"/>
+    </radialGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="18" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1024" height="1024" rx="228" fill="url(#bg)"/>
+  <circle cx="512" cy="512" r="340" fill="none" stroke="#58d9ed" stroke-opacity=".13" stroke-width="5"/>
+  <circle cx="512" cy="512" r="288" fill="none" stroke="#70e4f5" stroke-opacity=".2" stroke-width="5" stroke-dasharray="36 18 5 18"/>
+  <path d="M512 167a345 345 0 0 1 310 193M512 857a345 345 0 0 1-310-193" fill="none" stroke="#74e8fa" stroke-opacity=".5" stroke-width="13" stroke-linecap="round"/>
+  <circle cx="512" cy="512" r="205" fill="#07151b" stroke="#6de3f5" stroke-opacity=".5" stroke-width="7" filter="url(#glow)"/>
+  <circle cx="512" cy="512" r="151" fill="url(#core)" stroke="#b1f4ff" stroke-opacity=".55" stroke-width="6"/>
+  <path d="M434 410v116c0 43 35 78 78 78s78-35 78-78V410M512 604v68M462 672h100" fill="none" stroke="#e0fbff" stroke-width="25" stroke-linecap="round"/>
+  <rect x="466" y="356" width="92" height="191" rx="46" fill="#08232c" stroke="#ddfbff" stroke-width="24"/>
+  <path d="M128 366h64M832 658h64M178 264l45 45M801 715l45 45" stroke="#5adbed" stroke-opacity=".7" stroke-width="10" stroke-linecap="round"/>
+</svg>

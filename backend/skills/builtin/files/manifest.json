@@ -1,0 +1,10 @@
+{
+  "name": "files",
+  "title": "Local files",
+  "description": "Read, create, organize and open files while preserving the actual returned path.",
+  "category": "Windows",
+  "tools": ["find_files", "list_directory", "read_text_file", "write_text_file", "create_and_open_text_file", "move_file", "copy_file", "delete_file"],
+  "capabilities": ["windows.files", "filesystem.read", "filesystem.write"],
+  "keywords": ["file", "folder", "document", "create", "delete", "move", "arquivo", "pasta", "desktop", "area de trabalho", "documento", "crie", "apague", "mova"],
+  "deterministic": true
+}

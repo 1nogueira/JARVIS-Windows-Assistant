@@ -1,0 +1,23 @@
+[package]
+name = "jarvis-desktop"
+version = "0.3.6"
+description = "JARVIS - local personal assistant for Windows"
+authors = ["JARVIS"]
+edition = "2021"
+
+[lib]
+name = "jarvis_desktop_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = ["tray-icon"] }
+tauri-plugin-global-shortcut = "2"
+tauri-plugin-shell = "2"
+serde_json = "1"
+getrandom = "0.3"
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.61", features = ["Win32_Foundation", "Win32_System_Diagnostics_ToolHelp"] }

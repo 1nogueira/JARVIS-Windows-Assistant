@@ -1,0 +1,27 @@
+# API
+fastapi==0.116.1
+uvicorn[standard]==0.35.0
+httpx==0.28.1
+pydantic==2.11.7
+
+# Windows and media
+psutil==7.0.0
+Pillow==11.3.0
+pyperclip==1.9.0
+pycaw==20240210
+comtypes==1.4.11
+Send2Trash==1.8.3
+PyAutoGUI==0.9.54
+
+# Optional local tools
+playwright==1.54.0
+numpy==1.26.4
+sounddevice==0.5.2
+openwakeword==0.6.0
+onnxruntime==1.22.1
+
+# Tests and packaging
+pytest==8.4.1
+pytest-asyncio==1.1.0
+ruff==0.12.8
+pyinstaller==6.15.0

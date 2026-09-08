@@ -1,0 +1,9 @@
+{
+  "name": "vision",
+  "title": "Local vision",
+  "description": "Capture and analyze the screen, a window or camera using local tools.",
+  "category": "Multimodal",
+  "tools": ["capture_screen", "capture_window", "analyze_screen", "open_camera"],
+  "capabilities": ["vision.screen", "vision.camera"],
+  "keywords": ["screen", "capture", "image", "tela", "screenshot", "captura", "print", "imagem", "camera"]
+}

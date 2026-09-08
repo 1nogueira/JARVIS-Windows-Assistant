@@ -1,0 +1,9 @@
+{
+  "name": "voice",
+  "title": "Voice",
+  "description": "Integrate local wake word, push-to-talk, STT, TTS and barge-in.",
+  "category": "Voice",
+  "tools": [],
+  "capabilities": ["voice.stt", "voice.tts", "voice.wakeword", "voice.barge_in"],
+  "keywords": ["voice", "speak", "listen", "microphone", "voz", "fale", "escute", "jarvis", "microfone"]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "reminders",
+  "title": "Reminders and schedule",
+  "description": "Create local reminders and persistent recurring tasks.",
+  "category": "Productivity",
+  "tools": ["create_reminder", "list_reminders", "update_reminder", "delete_reminder"],
+  "capabilities": ["scheduler.local", "notifications.local"],
+  "keywords": ["reminder", "remind", "every day", "every week", "lembrete", "me avise", "todo dia", "toda semana", "agende", "schedule"],
+  "deterministic": true
+}

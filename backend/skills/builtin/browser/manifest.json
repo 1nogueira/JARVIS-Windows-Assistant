@@ -1,0 +1,10 @@
+{
+  "name": "browser",
+  "title": "Browser",
+  "description": "Open websites and control local browsing when requested.",
+  "category": "Web",
+  "tools": ["open_website", "open_private_browser", "browser_open", "browser_navigate", "browser_read_page", "browser_click", "browser_type"],
+  "capabilities": ["browser.open", "browser.automation"],
+  "keywords": ["browser", "website", "page", "site", "navegador", "youtube", "google", "netflix", "link", "url", "pagina"],
+  "deterministic": true
+}

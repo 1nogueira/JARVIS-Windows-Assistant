@@ -1,0 +1,10 @@
+{
+  "name": "system",
+  "title": "Windows system",
+  "description": "Read Windows metrics, processes, audio, clipboard and settings.",
+  "category": "Windows",
+  "tools": ["get_system_metrics", "diagnose_system_usage", "get_running_processes", "set_volume", "set_mute", "read_clipboard", "write_clipboard", "open_windows_settings"],
+  "capabilities": ["windows.system", "windows.audio", "windows.clipboard"],
+  "keywords": ["system", "microphone", "process", "cpu", "ram", "gpu", "sistema", "volume", "microfone", "clipboard", "processo"],
+  "deterministic": true
+}
